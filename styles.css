@@ -1,0 +1,46 @@
+body {
+	background: lightgray;
+	margin: 0;
+	font-family: 'Dancing Script', cursive;
+}
+div {
+	/*para colocar h2 y la fecha en la misma linea*/
+	box-sizing: border-box;
+}
+header {
+	background: white;
+	padding: 10px;
+}
+header h1 {
+	margin: 0;
+	font-family: 'Lobster', cursive;
+}
+div.post {
+	background: white;
+	margin-top: 10px;
+}
+div.post img {
+	width: 100%;
+	/*border-style: solid;*/
+}
+div.post h2, div.post p {
+	padding: 10px;
+	margin: 0;
+}
+div.container {
+	width: 600px;
+	margin: auto;
+}
+div.post .post-title {
+	display: inline-block;
+	/*background: green;*/
+	width: 80%;
+}
+div.post .post-date {
+	display: inline-block;
+	/*background: yellow;*/
+	width: 20%;
+	text-align: right;
+	padding-right: 10px;
+	color: gray;
+}
